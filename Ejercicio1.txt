@@ -1,0 +1,38 @@
+inicio 
+	var numero;
+
+	mostrar "ingrese un numero";
+	leer numero;
+
+	var numeros[numero];
+	var i;
+	mientras numero>=1
+		
+		random(0,100)
+		leer numeros[i];
+		numero --
+		i++;
+	fin mientras
+	
+	var par;
+	var impar;
+	si numero[i]%2=0
+		par++
+
+	contrario
+		impar ++
+	fin si 
+
+	mostrar " los numeros pares son  "+par;
+	mostrar "los numeros impares son "+impar;
+	
+	
+	
+	
+		
+fin
+
+
+
+
+	
